@@ -1,5 +1,6 @@
 import {useEffect, useState } from 'react';
 import Movie from "../components/movie";
+import styles from "./Home.module.css";
 //movie 컴포넌트로 보내기위해 임포트하는거임
 function Home() {
     const [loading, setLoading] = useState(true);
@@ -15,9 +16,9 @@ function Home() {
     }, []);
     
     return (//자식컴포넌트에게 넘겨줄때 이름은 coverImg처럼 무작위로 지어주어도됌 
-    <div>
-        {loading ? (<h1>Loading...</h1>) : 
-        (<div>{movies.map((movie) =>  <Movie 
+    <div className={styles.container}>
+        {loading ? (<h1 className={styles.loading}>Loading...</h1>) : 
+        (<div className={styles.menu}>{movies.map((movie) =>  <Movie 
         key = {movie.id} 
         id = {movie.id}//id를 넘겨주고 movie에서 경로로 써먹기
         coverImg={movie.medium_cover_image} 

@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.loading {
+    color: green;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+    grid-gap: 100px;
+    padding: 70px;
+}
+

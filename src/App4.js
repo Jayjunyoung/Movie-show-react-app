@@ -9,7 +9,7 @@ function App4() {//라우터 라우츠 라우트
     return (<Router>
         <Routes>
             <Route path="/movie/:id" element={<Detail />}/>
-            <Route path="/" element={<Home />}/>
+            <Route path= {`${process.env.PUBLIC_URL}/`}  element={<Home />}/>
         </Routes>
     </Router>
     );

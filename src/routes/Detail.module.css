@@ -1,0 +1,28 @@
+.detail_img {
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    color:blueviolet
+}
+
+.movie_detail {
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    display: flex;
+}
+
+.detail_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 수직방향의 주축이므로 세로의 정가운데 의미*/
+}
