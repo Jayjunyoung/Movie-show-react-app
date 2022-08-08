@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/React-app-beginner/static/css/main.0662c78a.css",
+    "main.css": "/React-app-beginner/static/css/main.a0ec0ec5.css",
     "main.js": "/React-app-beginner/static/js/main.aed793eb.js",
+    "static/media/Avengers.jpg": "/React-app-beginner/static/media/Avengers.491c56560f15017afe74.jpg",
     "index.html": "/React-app-beginner/index.html",
-    "main.0662c78a.css.map": "/React-app-beginner/static/css/main.0662c78a.css.map",
+    "main.a0ec0ec5.css.map": "/React-app-beginner/static/css/main.a0ec0ec5.css.map",
     "main.aed793eb.js.map": "/React-app-beginner/static/js/main.aed793eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.0662c78a.css",
+    "static/css/main.a0ec0ec5.css",
     "static/js/main.aed793eb.js"
   ]
 }
